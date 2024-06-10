@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ground{
+    width: 100%;
+    height: 100%;
+}
+button{
+    position: fixed;
+    top: 40px;
+    color: #fff;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #fff;
+    font-size: 20px;
+    animation: bordermove 5s infinite;
+}
+.img{
+    border-radius: 50%;
+}
+@keyframes bordermove{
+    0%{
+        border-radius: 5px;
+        padding: 5px 20px;
+
+    }
+    50%{
+        border-radius: 20px;
+        padding: 3px 5px;
+
+    }
+    100%{
+        border-radius: 5px;
+        padding: 5px 20px;
+    }
+} 
+.btn1{
+    left: 30px;
+}
+.btn2{
+    right: 30px;
+}
+h1{
+    position: fixed;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #04012c;
+    font-family: sans-serif;
+    animation: mymove 4s infinite ;
+}
+@keyframes mymove {
+    0%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform:translateY(50px);
+    }
+    100%{
+        transform: translate(0,0);
+    }
+}
+.bubbles{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: -30px;
+    width: 100%;
+}
+@keyframes bubbles{
+    0%{
+        transform: translate(0,0);
+    }
+
+    100%{
+        transform: translate(0,-500px);
+        opacity: 0;
+    }
+}
+.img1{
+    animation: bubbles 10s infinite linear;
+    width: 20px;
+    height: 20px;
+}
+.img2{
+    animation: bubbles 6s infinite linear;
+    width: 35px;
+    height: 35px;
+}
+.img3{
+    animation: bubbles 7s infinite linear;
+    width:  50px;
+    height: 50px;
+
+}
+.img4{
+    animation: bubbles 8s infinite linear;
+    width:  30px;
+    height: 30px;
+
+}
+.img5{
+    animation: bubbles 15s infinite linear;
+    width:  50px;
+    height: 50px;
+}
+.img6{
+    animation: bubbles 10s infinite linear;
+    width:  25px;
+    height: 25px;
+}
+.img7{
+    animation: bubbles 9s infinite linear;
+    width:  40px;
+    height: 50px;
+}
+.img8{
+    animation: bubbles 9s infinite linear;
+    width:  20px;
+    height: 20px;
+}
+.img9{
+    animation: bubbles 9s infinite linear;
+    width:  40px;
+    height: 40px;
+}
+.img10{
+    animation: bubbles 9s infinite linear;
+    width:  58px;
+    height: 58px;
+}
